@@ -1,0 +1,71 @@
+.root{
+    --primary-text-color:#2E2F42;
+    --title-text-color:#434455;
+    --accent-color:#4D5AE5;
+}
+
+
+
+body{
+    background-color:#FFFFFF ;
+    color:var(--primary-text-color) #434455;
+}
+
+.logo{
+color: var(--primary-text-color) #4D5AE5,#2e2f42;
+
+}
+/* цвет основного текста #2E2F42 NAVY BLUE */
+
+/* вторичный цвет  #434455 SLATE */
+
+/* заголовок и кнопка #FFFFFF  */
+
+/* студио в футере #F4F4FD облако */
+
+/* веб 2 раза #4D5AE5 ирис */
+
+/* абзац в футуре #E7E9FC */
+
+/* наша команда фон cloud  */
+/* что мы делаем фон cornyflower, navy blue 4d5ae5 10% */
+
+/* Site nav */
+.site-nav .link{
+    color: #2E2F42;
+    background-color: #E7E9FC
+
+}
+
+ .site-nav .link:hover,
+.site-nav .link:focus
+{ color: #4D5AE5;
+ }
+
+.auth-nav list{
+    color: #434455;
+}
+
+.hero-title{
+    color: #FFFFFF;
+    background-color: #2E2F42;
+}
+
+.button{
+color: #FFFFFF;
+background-color: #4D5AE5;
+}
+ 
+.section-title{
+    color: #2E2F42;
+ }
+
+
+/* Features */
+
+.feature-list .title{
+    color: #2E2F42;
+}
+
+/* work */
+
