@@ -2,7 +2,7 @@
     --primary-text-color:#2E2F42;
     --title-text-color:#434455;
     --accent-color:#4D5AE5;
-    --primary-bg-color:
+    --primary-bg-color:#FFFFFF;
 }
 
 
@@ -10,7 +10,7 @@
 body{
     background-color:#FFFFFF;
     color:var(--primary-text-color);
-
+    list-style: none;
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
@@ -42,6 +42,11 @@ text-decoration: none;
 /* что мы делаем фон cornyflower, navy blue 4d5ae5 10% */
 
 /* Site nav */
+
+ul{
+    list-style:none;
+}
+
 .site-nav .link{
     color: #2E2F42;
     background-color: #E7E9FC;
@@ -50,21 +55,30 @@ text-decoration: none;
     line-height: 1.5;
    letter-spacing: 0.02em;
    text-decoration: none;
+   
 }
 
- .site-nav .link:hover,
+.site-nav .link:hover,
 .site-nav .link:focus
 { color:var(--title-text-color);
  }
 
-.site-nav .link.current{
+.site-nav .link-current{
     color:var(--accent-color)
 }
 
-.auth-nav list{
+.auth-nav-list{
     color: #434455;
     text-decoration: none;
+    font-style: normal;
+    list-style: none;
 }
+
+.add-nav{
+    font-style: normal;
+}
+
+
 
 .hero-title{
     color: #FFFFFF;
@@ -77,23 +91,25 @@ text-decoration: none;
         }
 
 .button{
-color: #FFFFFF;
-background-color: #4D5AE5;
+color: #4D5AE5;
+background-color: #FFFFFF;
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 padding: 16px 32px;
 }
  
-.button-list{
-color:#4D5AE5;
-background:#FFFFFF;
-font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
+.first-button{
+color:#FFFFFF;
+background:#4D5AE5;
 
+}
+
+.first-button .link:hover,
+.first-button .link:focus {
+    color: var(--accent-color);
 }
 
 .section-title{
@@ -139,6 +155,7 @@ font-family: 'Roboto';
 }
 
 .footer{
+    background-color: #2E2F42;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.16;
@@ -147,24 +164,18 @@ font-family: 'Roboto';
 .text-paragraf{
     color: #E7E9FC;
     background-color: #2E2F42;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
 }
 
 .card-content{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
 }
 
 .card-list{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
